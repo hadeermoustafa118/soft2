@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+ 
+<head>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            background-image: url("bgg.jpg");
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+ 
+        input[type=text],
+        input[type=password] {
+            width: 100%;
+            padding: 20px ;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+ 
+        input[type=submit] {
+            width: 100%;
+            background-color: darkcyan;
+            color: white;
+            padding: 20px ;
+            margin: 8px 0;
+            border: none;
+            border-radius: 4px;
+ 
+        }
+ 
+        .login{
+            background: white;
+            margin: 50px auto;
+            height: 500px;
+            width: 400px;
+            border-radius: 8%;
+            text-align: center;
+ 
+        }
+ 
+        div {
+            margin: auto;
+            height: 200px;
+            width: 350px;
+ 
+        }
+ 
+ 
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            width: 25%;
+            background-color: darkcyan;
+            position: absolute;
+            height: 100%;
+            overflow: auto;
+            opacity: 0.5;
+            right: 0;
+            top: 0;
+        }
+ 
+        li a {
+            display: block;
+            color: white;
+            padding: 20px 50px;
+            text-decoration: none;
+        }
+ 
+        li a.active {
+            background-color: black;
+            color: white;
+        }
+ 
+        li a:hover:not(.active) {
+            background-color: black;
+            color: white;
+        }
+ 
+        h4 {
+            padding: 20px ;
+            margin: 8px 0;
+            height: 100px;
+            width: 300px;
+        }
+ 
+        h2 {
+            padding-top:20px ;
+            margin: 8px 0;
+            height: 30px;
+            width: 300px;
+        }
+ 
+        h3{
+            padding-top:10px ;
+            margin: 8px 0;
+            height: 50px;
+            width: 300px;
+        }
+    </style>
+</head>
+ 
+<body>
+ 
+<ul>
+    <li><a class="active" href="#home">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#services">Services</a></li>
+    <li><a href="#contact">Contact</a></li>
+ 
+</ul>
+ 
+ 
+<div class="login">
+    <div>
+        <form>
+            <h2 style="color: darkcyan;">Facebook</h2>
+            <h3>Login</h3>
+            <input type="text"  placeholder="Your Email or phone ">
+            <input type="password" placeholder="Your Password ">
+            <input type="submit" value="Login">
+            <h4 style="color: white;"> forget password ? or Sign up! </h4>
+        </form>
+    </div>
+</div>
+ 
+</body>
+ 
+</html>
+ 
